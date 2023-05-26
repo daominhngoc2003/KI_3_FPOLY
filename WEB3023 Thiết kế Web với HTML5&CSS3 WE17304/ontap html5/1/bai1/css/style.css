@@ -1,0 +1,120 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header .logo img{
+    Width:178.83px;
+    Height:60px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 32px;
+    padding: 0;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user img{
+    margin-left: 20px;
+}
+
+ .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 64px;
+    margin-bottom: 64px;
+}
+
+.row .col{
+    text-align: center;
+}
+
+.row .col:hover .content-title{
+    transform: translateY(-150px);
+    visibility: inherit;
+    transition: all 10s ease-in-out 20s;
+    transition: 0.5s;
+}
+
+
+.content-title{
+    background: white;
+    visibility: hidden;
+    position: absolute;
+    width: 360px;
+}
+
+.imgg{
+    position: relative;
+    
+}
+
+.imgg:hover img{
+    transform: scale(1.1);
+    transition: 0.6s ease-in-out;
+    
+}
+
+
+.row .col{ 
+    text-decoration: none;
+    color: black;
+    display: block;
+    overflow: hidden;
+}
+
+.row .col img{ 
+    display: block;
+    width: 100%;
+}
+
+
+.content .banner{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #021A34;
+    color:  #FFFFFF;
+}
+

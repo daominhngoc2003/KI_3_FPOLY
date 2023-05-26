@@ -1,0 +1,237 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    height: 100px;
+    border-bottom: 2px solid rgb(225, 224, 224);
+}
+.nav-main{
+display: flex;
+}
+ul{
+font-size: 1.125rem; /* 18px */
+line-height: 1.75rem; /* 28px */
+font-weight: 900;
+margin-top: 20px;
+}
+ul>li{
+list-style-type: none;
+}
+ul>li>a{
+text-decoration-line: none;
+font-weight: 900;
+margin-left: 20px; 
+}
+ul>li>a:hover{
+color: red;
+}
+.search{
+font-family:  sans-serif !important;
+font-weight: 700;
+}
+.header{
+display: flex;
+}
+.header-nav{
+display: flex;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.ip-search{
+outline: 2px solid transparent;
+outline-offset: 2px;
+font-size: 20px;
+}
+.btn-search{
+font-size: 20px; 
+}
+.frm-dangnhap{
+margin-right: 20px;  
+}
+.frm-dangnhap>a{
+text-decoration: none;
+font-size: 20px;
+}
+.frm-dangnhap>a:hover{
+color: red;
+}
+/* header */
+
+header>.header-1{
+max-width: 80rem; /* 1280px */
+margin-left: auto;
+margin-right: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+padding-top: 40px;
+gap:32px;
+}
+.content-header1>h1{
+font-size: 4.5rem; /* 72px */
+line-height: 1; /* 40px */
+color: rgb(29, 29, 95);
+width: 700px;
+}
+.content-header1>h3{
+color: rgb(29, 29, 95);
+}
+.content-header1>a{
+text-decoration: none;
+color: white;
+z-index: 1;
+padding: 12px 60px;
+background-image: url(../images/button-bg.png);
+transition: all 1s ease 0;
+}
+ .content-header1>a:hover{
+    transform:  translateY(-7px);
+    transition: all 1s ease 0;
+}
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content-main>h1{
+    font-size: 50px;
+    color: #393d72;
+    font-weight: 600;
+}
+.content-main>p{
+    font-size: 18px;
+}
+
+.footer{
+width: 100%;
+margin-top: 40px;
+}
+.img-footer{
+position: absolute;
+}
+.row-footer{
+position: relative;
+width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 35px;
+}
+.col-footer>h3{
+font-size: 30px;
+margin-top: 50px;
+margin-bottom: -10px;
+}
+.col-footer>p{
+font-size: 19px;
+}
+.title3:hover{
+    color: red;
+    text-decoration: underline;
+}
+.ft{
+background: #393d72;
+position: relative;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.ft>.span{
+color: white;
+}
+.col-footer>input{
+font-size: 20px;
+outline: 2px solid transparent;
+outline-offset: 2px;
+}
+.icon-footer{
+margin-top: 30px;
+}
+.product{
+    width: 1200px;
+    margin: 0 auto;
+}
+#container{
+    background-color: rgb(238, 232, 232);
+    width: 100%;
+
+}
+
+.product .title{
+    text-align: center;
+}
+
+.product .title h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #dd006d !important;
+    text-transform: capitalize;
+}
+
+.product .title h1{
+    color: #393d72;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+
+.row .col{
+    background: white;
+    border-radius: 15px;
+    padding: 20px 20px;
+    text-align: center;
+    transition: .10s;
+    
+}
+
+.row .col:hover{
+    box-shadow: 5px 5px 10px 5px grey;
+}
+
+.row .col img{
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.row .col h1{
+    color: #1c1c1c;
+}
+
+.row .col h1:hover{
+    text-decoration: underline;
+    color: #dd006d;
+    transition: all 0.6s;
+}
+
+/* Quay tròn ảnh */
+.tran-img:hover {
+    animation: app-logo-spin infinite 2s linear
+    
+  }
+  
+  @keyframes app-logo-spin {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
+  }
+

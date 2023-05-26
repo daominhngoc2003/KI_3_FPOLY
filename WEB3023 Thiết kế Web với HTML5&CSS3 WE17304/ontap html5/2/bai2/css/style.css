@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+}
+
+header{
+    background: #000;
+}
+
+nav{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    border-right: 1px solid grey;
+}
+
+li a:hover{
+    text-decoration: none;
+    color: #d42608;
+    padding: 20px 20px;
+    border-right: 1px solid grey;
+}
+
+form input{
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    padding: 7px 12px;
+    background: #d42608;
+    color: white;
+}
+
+.banner{
+    width: 1200px;margin: 0 auto;
+    margin-top: 30px;
+}
+ .banner img{
+    width: 100%;
+ }
+
+ section h1{
+    color: #d42608;
+    text-align: center;
+ }
+.row{
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:8px
+}
+
+.row .col{
+    text-align: center;
+    border: 1px solid #cdcdcd;
+    padding: 10px 20px;
+}
+
+.col span{
+    color: #970505;
+}
+
+.col-img{
+    overflow: hidden;
+}
+
+.col-img:hover{
+   opacity: 0.5;
+    transition: 0.1s ease-in-out 0.1s;
+}
+
+.col-img img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out 0.1s;
+}
+
+.col-img img{
+    width: 100%;
+}
+.row h3 a{
+    text-decoration: none;
+}
+
+.row h3 a:hover{
+    color: red;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: white;
+    height: 60px;
+    margin-top: 30px;
+}

@@ -1,0 +1,173 @@
+#container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0;
+    font-family: Roboto;
+}
+
+.banner img{
+    width: 100%;
+}
+
+nav{
+    text-align: center;
+}
+
+nav .logo{
+    padding: 16px 0;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    list-style-type: none;
+    margin-bottom: 32px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    margin-left: 33px;
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 400;
+    color: black;
+}
+
+ul li a:hover{
+    text-decoration: underline;
+}
+
+.row-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.row-2 .col-2{
+    width: 50%;
+}
+
+.row-2 .col-2 h1{
+    font-size: 40px;
+}
+
+.row-2 .col-2 p{
+    font-size: 20px;
+}
+
+.row-2 .col-2 input{
+    font-size: 20px;
+    color: white;
+    background: #FFA800;
+    border: none;
+    padding: 16px 24px;
+}
+
+.row-2 img{
+    width: 100%;
+}
+
+.content .title-fe{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.row-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.row-3 .col-3 img{
+    width: 100%;
+}
+
+.row-3 .col-3 img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.row-3 .col-3{
+    display: block;
+    overflow: hidden;
+}
+
+.row-3 .col-3 .imgg{
+    position: relative;
+}
+
+.row-3 .col-3:hover .title{
+    transform: translateY(-158px);
+    transition: all 0.3s ease-in-out;
+    visibility: inherit;
+}
+
+.row-3 .col-3 .title{
+    text-align: center;
+    background: white;
+    position: absolute;
+    visibility: hidden;
+    width: 380px;
+}
+
+.row-3 .col-3 .title button{
+    color: white;
+    background: #2C2C2C;
+    width: 100%;
+    padding: 14px 0;
+}
+
+.row-3 .col-3 .title span{
+    display: block;
+}
+
+footer{
+    background: #021A34;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-top: 64px;
+}
+
+footer span{
+    margin-left: 27px;
+}
+
+
+footer form input{
+    padding: 14px;
+    font-weight: 400;
+    border: 1px solid #FFA800;
+    background: none;
+    outline: none;
+}
+
+footer form input{
+    padding: 14px;
+    font-weight: 400;
+    border: 1px solid #FFA800;
+    background: none;
+    outline: none;
+}
+
+footer form button{
+    background: #FFA800;
+    color: white;
+    padding: 14px;
+    margin-right: 23px;
+    margin-left: 7px;
+}
+

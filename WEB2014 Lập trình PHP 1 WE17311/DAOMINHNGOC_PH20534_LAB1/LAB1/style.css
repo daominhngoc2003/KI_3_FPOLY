@@ -1,0 +1,32 @@
+.w-60{
+    width:520px;
+}
+.w-40{
+    width:170px;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-center{
+    text-align: center;
+}
+.pr-10{
+    padding-right: 40px;
+}
+.p-10{
+    padding: 40px;
+}
+.w-20{
+    width: 80px;
+}
+.bg-red{
+background: red;
+}
+.text-white{
+color:yellow;
+}
+.outline-none{
+outline: 2px solid transparent;
+outline-offset: 2px;
+}
